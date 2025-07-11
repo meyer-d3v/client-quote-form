@@ -2,6 +2,11 @@
 
 A sleek and modern quote request web application built with React and Firebase. This app allows clients to submit service quote requests through a simple, responsive interface. Submitted data is stored in Firebase Firestore and integrated with a separate mobile admin dashboard for real-time access and management.
 
+
+> 🟢 **Live Demo:** [https://client-quote-form.netlify.app/](https://client-quote-form.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - 🌐 Responsive one-page web app
@@ -24,21 +29,21 @@ Coming soon…
 
 📂 Folder Structure
 
-client-quote-form/
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── firebase.js
-│   ├── index.css
-│   └── main.jsx
-├── .env
-├── package.json
-└── README.md
+client-quote-form/ 
+├── public/ 
+├── src/ 
+│   ├── App.jsx 
+│   ├── firebase.js 
+│   ├── index.css 
+│   └── main.jsx 
+├── .env 
+├── package.json 
+└── README.md 
 
 ✅ Getting Started
 
 # Clone the repo
-git clone https://github.com/meyer-d3v/client-quote-form.git
+git clone https://github.com/your-username/client-quote-form.git
 cd client-quote-form
 
 # Install dependencies
