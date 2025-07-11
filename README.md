@@ -27,18 +27,6 @@ Coming soon…
 - [Firebase](https://firebase.google.com/)
 - [Netlify](https://netlify.com/) for deployment
 
-📂 Folder Structure
-
-client-quote-form/ 
-├── public/ 
-├── src/ 
-│   ├── App.jsx 
-│   ├── firebase.js 
-│   ├── index.css 
-│   └── main.jsx 
-├── .env 
-├── package.json 
-└── README.md 
 
 ## 🧾 Business Use
 
