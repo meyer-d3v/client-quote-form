@@ -1,12 +1,53 @@
-# React + Vite
+# Client Quote Submission Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern quote request web application built with React and Firebase. This app allows clients to submit service quote requests through a simple, responsive interface. Submitted data is stored in Firebase Firestore and integrated with a separate mobile admin dashboard for real-time access and management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 Responsive one-page web app
+- ✍️ Clean, user-friendly quote submission form
+- 🔒 Secure Firebase integration with Firestore
+- 📨 Real-time data capture with instant database write
+- ⚙️ Fully compatible with a connected mobile admin system
+- 🖼️ Stylish UI with custom color scheme
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Coming soon…
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Firebase](https://firebase.google.com/)
+- [Netlify](https://netlify.com/) for deployment
+
+📂 Folder Structure
+
+client-quote-form/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── firebase.js
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── package.json
+└── README.md
+
+✅ Getting Started
+
+# Clone the repo
+git clone https://github.com/meyer-d3v/client-quote-form.git
+cd client-quote-form
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+📬 Contact
+Built by Dean Meyer
+Want to collaborate or license the system? Open an issue or reach out directly.
+
