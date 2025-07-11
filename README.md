@@ -40,19 +40,29 @@ client-quote-form/
 ├── package.json 
 └── README.md 
 
-✅ Getting Started
+## 🧾 Business Use
 
-# Clone the repo
-git clone https://github.com/your-username/client-quote-form.git
-cd client-quote-form
+This web app is designed for service-based businesses to easily collect client quote requests online. It’s ideal for companies in industries like HVAC, fire safety training, facilities management, or any business that needs a streamlined client quote intake system. 
 
-# Install dependencies
-npm install
+If you’re interested in licensing this app, customizing it for your specific workflow, or integrating it with your existing admin tools, feel free to get in touch via LinkedIn or email. 
 
-# Run locally
-npm run dev
+---
 
-📬 Contact
-Built by Dean Meyer
-Want to collaborate or license the system? Open an issue or reach out directly.
+## 🤝 Contact
 
+**Developer:** Dean Meyer  
+📧 meyerdean.developer@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/dean-meyer-385342247/)  
+🌐 [Portfolio](https://meyer-dev.netlify.app/)
+
+---
+
+## 📜 License
+
+This project is protected and intended for client or educational use. Please do not resell, duplicate, or claim the code as your own without permission.
+
+---
+
+## ⭐️ Support My Work
+
+If this project inspired you or helped you, feel free to leave a ⭐ on the repo!
