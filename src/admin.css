@@ -1,0 +1,54 @@
+.mainContainer {
+  background: linear-gradient(90deg, rgb(254, 254, 254), #0F766E);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.table {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #0F766E;
+}
+
+.thData {
+  width: 18%;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 0.5px solid #0F766E;
+  font-size: x-large;
+}
+
+.tbData {
+    width: 18%;
+    text-align: center;
+    border-bottom: 0.5px solid #6d6d6d;
+}
+
+.tbData:nth-child(3)
+.tbData:nth-child(4),
+.tbData:nth-child(5),
+.tbData:nth-child(6),
+.tbData:nth-child(4),
+.tbData:nth-last-child(1) {
+    color: aliceblue;
+}
+
+.thData:nth-child(3)
+.thData:nth-child(4),
+.thData:nth-child(5),
+.thData:nth-child(6),
+.thData:nth-child(4),
+.thData:nth-last-child(1) {
+    color: aliceblue;
+}

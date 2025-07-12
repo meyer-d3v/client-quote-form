@@ -1,9 +1,16 @@
-.mainContainer {
-  background: linear-gradient(90deg, rgb(254, 254, 254), #0F766E);
-  width: 100vw;
-  height: 100vh;
+* {
+  box-sizing: border-box;
+}
+.maincontainer {
+    background: linear-gradient(90deg, rgb(254, 254, 254), #0F766E);
+  width: 100lvw;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -18,11 +25,12 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: -5%;
+  
 }
 
 .formContainer {
   width: 50%;
+  
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -63,7 +71,7 @@
   font-size: xx-large;
   font-weight: 600;
   padding-bottom: 10%;
-  margin-bottom: -5%;
+  margin-bottom: -10%;
 }
 
 .labels {
@@ -81,9 +89,6 @@
   margin-bottom: 5px;
 }
 
-.inputs:nth-child(14) {
-  margin-bottom: 20px;
-}
 
 .inputs:active,
 .inputs:focus {
@@ -94,6 +99,14 @@
 .submitButton {
   background: #0F766E;
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+}
+
+.submit {
+  background: #63807e;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+  width: 100px;
+  margin-top: 10px;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {

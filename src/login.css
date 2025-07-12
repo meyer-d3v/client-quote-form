@@ -1,0 +1,42 @@
+.mainContainer {
+  background: linear-gradient(90deg, rgb(254, 254, 254), #0F766E);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 30px;
+  color: #0F766E;
+  margin-bottom: 5px;
+  width: 20%;
+}
+
+.submit {
+  background: #0F766E;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+  width: 20%;
+  margin-top: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formAdmin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+}
